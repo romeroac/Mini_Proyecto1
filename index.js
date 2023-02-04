@@ -1,3 +1,4 @@
+//Navbar
 const nav = document.querySelector('nav');
 window.onscroll = () => {
     if (window.pageYOffset > 0) {
