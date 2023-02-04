@@ -13,39 +13,6 @@
 
 <body>
 
-    
-<!-- Caroulsel -->
-    <div class="slideshow-container">
-
-        <div class="mySlides fade">
-            <div class="numbertext">1 / 3</div>
-            <img src="./img/pexels-christina-morillo-1181271.jpg" style="width:100%">
-            <div class="text"></div>
-        </div>
-
-        <div class="mySlides fade">
-            <div class="numbertext">2 / 3</div>
-            <img src="./img/pexels-christina-morillo-1181675.jpg" style="width:100%">
-            <div class="text"></div>
-        </div>
-
-        <div class="mySlides fade">
-            <div class="numbertext">3 / 3</div>
-            <img src="./img/pexels-markus-winkler-4578665.jpg" style="width:100%">
-            <div class="text"></div>
-        </div>
-
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div>
-    <br>
-
-    <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-    </div>
-
     <!--Navbar-->
     <nav>
         <a href="#" class="logo">Armonía Dev</a>
@@ -62,11 +29,44 @@
             <div class="bar bar-2"></div>
             <div class="bar bar-3"></div>
         </a>
-            
+
     </nav>
     <div class="banner">
 
+        <!-- Carousel -->
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="./img/pexels-christina-morillo-1181271.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="./img/pexels-christina-morillo-1181675.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="./img/pexels-markus-winkler-4578665.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
     </div>
+
+
 
     <script src="./index.js"></script>
 
