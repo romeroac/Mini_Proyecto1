@@ -20,7 +20,13 @@ bar.onclick = () => {
     bar.classList.toggle('active');
     nav.classList.toggle("active");
 }
+//Solicitud enviada contact me
+const btn = document.getElementById("send-btn");
+btn.addEventListener("click", () => {
+  alert("Su solicitud ha sido enviada");
+});
   
+
 //Carousel
 let slideIndex = 0;
 showSlides();

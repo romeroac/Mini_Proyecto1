@@ -369,3 +369,107 @@ nav.sticky ul li a {
         right: -50px;
     }
 }
+
+.form-container{
+    top: 100px;
+    margin: auto;
+    position: relative;
+    height: 600px;
+    width: 400px;
+}
+
+.form-contact {
+    background: #FFF;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 7px 13px 37px rgba(0, 0, 0, .8);
+}
+
+header {
+    width: 100%;
+    background: #fff;
+    overflow: hidden;
+    color: #000;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.contact {
+    padding: .8rem;
+    overflow: hidden;
+    color: gray;
+}
+
+.contact input,
+.contact textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.contact input:not([type='submit']),
+.contact textarea {
+    border: none;
+    border-bottom: 2px solid #130a29;
+    margin-bottom: 10px;
+    font-size: 20px;
+    outline: none;
+    color: gray;
+}
+
+.contact textarea {
+    min-height: 100px;
+}
+
+.about-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.btn{
+    border: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    border: 2px solid #000;
+    border-radius: 20px;
+    padding: 0.55rem 0;
+    width: 130px;
+    font-weight: 600;
+    background: transparent;
+    cursor: pointer;
+}
+.btn.btn-blue{
+    background: #1a202c;
+    color: #fff;
+    border-color: #1a202c;
+    transition: all 0.5s ease-in-out;
+}
+.btn.btn-blue:hover{
+    background: transparent;
+    border-color: #1a202c;
+    color: #000;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
