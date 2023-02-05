@@ -21,8 +21,6 @@ bar.onclick = () => {
     nav.classList.toggle("active");
 }
   
-
-
 //Carousel
 let slideIndex = 0;
 showSlides();
