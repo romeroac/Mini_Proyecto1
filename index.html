@@ -1,12 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <title>Armonía Romero</title>
 </head>
+
 <body>
-    
+
+    <!-- Contact form -->
+    <div class="form-container">
+        <header>
+            <h2>Háblame</h2>
+        </header>
+
+        <form action="" class="contact" method="POST">
+            <input type="text" id="name" placeholder="Name">
+            <input type="text" id="email" placeholder="Email">
+            <textarea id="msj" placeholder="Type something"></textarea>
+        </form>
+        <div class="about-btn">
+            <button type="button" class="btn btn-blue" id="open-link-button">Send</button>
+        </div>
+    </div>
+    <a href="https://api.whatsapp.com/send?phone=584142668875"
+        class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+    </a>
+    <script src="./index.js"></script>
 </body>
+
 </html>
