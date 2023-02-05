@@ -1,31 +1,31 @@
 //Open new tab Resume
 const openInNewTab = (url) => {
-    window.open(url, "_blank");
-  }
-  
-  const btn = document.getElementById("open-link-button");
-  btn.addEventListener("click", () => {
-    openInNewTab("https://drive.google.com/file/d/1NyRSaYFd95ztnjEr5QCN3Qy-6Tts_oy_/view?usp=sharing");
-  });
+  window.open(url, "_blank");
+}
+
+const btn = document.getElementById("open-link-button");
+btn.addEventListener("click", () => {
+  openInNewTab("https://drive.google.com/file/d/1NyRSaYFd95ztnjEr5QCN3Qy-6Tts_oy_/view?usp=sharing");
+});
 
 //Navbar
 const nav = document.querySelector('nav');
 window.onscroll = () => {
-    if (window.pageYOffset > 0) {
-        nav.classList.add("sticky")
-    }
+  if (window.pageYOffset > 0) {
+    nav.classList.add("sticky")
+  }
 }
 let bar = document.querySelector('.menu');
 bar.onclick = () => {
-    bar.classList.toggle('active');
-    nav.classList.toggle("active");
+  bar.classList.toggle('active');
+  nav.classList.toggle("active");
 }
 //Solicitud enviada contact me
-const btn = document.getElementById("send-btn");
-btn.addEventListener("click", () => {
+const btnSend = document.getElementById("send-btn");
+btnSend.addEventListener("click", () => {
   alert("Su solicitud ha sido enviada");
 });
-  
+
 
 //Carousel
 let slideIndex = 0;
@@ -37,7 +37,7 @@ function showSlides() {
     slides[i].style.display = "none";
   }
   slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 2000); 
+  if (slideIndex > slides.length) { slideIndex = 1 }
+  slides[slideIndex - 1].style.display = "block";
+  setTimeout(showSlides, 2000);
 }

@@ -10,7 +10,7 @@
 
 /*Navbar*/
 body {
-    background-color: #130a29;
+    background-color: #fff;
     min-height: 200vh;
 }
 
@@ -371,7 +371,7 @@ nav.sticky ul li a {
 }
 
 .form-container{
-    top: 100px;
+    top: 1000px;
     margin: auto;
     position: relative;
     height: 600px;
